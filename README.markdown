@@ -24,7 +24,6 @@ For running:
 Instructions
 -------------
 
-0. You need a recent enough version of CMake (>= 3.20). Older versions (>= 3.15) should work too, but you'll need to bump down the version number in `CMakeLists.txt`.
 1. Clone this repository **recursively**:
 ```
 git clone --recurse-submodules https://github.com/glocq/JUCE-ARA-VST3-CMake-example
