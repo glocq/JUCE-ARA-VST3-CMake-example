@@ -49,8 +49,12 @@
 
 #pragma once
 
+#include <JuceHeader.h>
+
 #include <ARA_Library/Utilities/ARAPitchInterpretation.h>
 #include <ARA_Library/Utilities/ARATimelineConversion.h>
+
+using namespace juce;
 
 //==============================================================================
 class ARADemoPluginAudioModification  : public ARAAudioModification
