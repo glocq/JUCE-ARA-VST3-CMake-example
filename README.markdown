@@ -47,6 +47,7 @@ make
 cp -r AudioPluginExample_artefacts/VST3/Audio\ Plugin\ Example.vst3/ ~/.vst3
 ```
 (the directory names might not correspond exactly, just make sure you copy the whole .vst3 folder into a folder where your DAW looks for VST3s)
+
 6. Open your DAW, make sure `~/.vst3` (or whatever folder you copied your plugin into) is in your DAW's search paths.
 7. Scan for new plugins.
 8. Add the "Audio Plugin Example" to a track in your DAW.
